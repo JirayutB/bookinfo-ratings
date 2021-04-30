@@ -50,5 +50,5 @@ jobs:
     needs: deploy
     runs-on: ubuntu-20.04
     steps:
-      - name: Attitude Adjustment
+      - name: Check Health page
         run: curl http://bookinfo.dev.opsta.net/student109/ratings/health | grep "Ratings is working"
